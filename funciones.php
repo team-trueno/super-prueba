@@ -6,5 +6,9 @@
      *
      */
 
-
+     function sumarUno($numero){
+         $numero++;
+         return $numero;
+     }
+     
 ?>
