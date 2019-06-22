@@ -22,6 +22,15 @@
         return $numero;
     }
 
-    ssh-keygen -t rsa -b 4096 -C "mail"
+    ssh-keygen -t rsa -b 4096 -C "mail";
+
+    function esPadre ($edadNiño) {
+        if($edadNiño>=2){
+            echo "es padre, la piba tenia razon";
+        }else{
+            echo "la piba tenia problemas psiquiatricos";
+        }
+        return $edadNiño;
+    }
 
 ?>
