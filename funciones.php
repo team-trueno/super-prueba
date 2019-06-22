@@ -6,5 +6,9 @@
      *
      */
 
+    function funcionUno ($numero) {
+        $numero = $numero * 4;
+        return $numero + 1;
+    }
 
 ?>
