@@ -6,9 +6,12 @@
      *
      */
 
-     function sumarUno($numero){
-         $numero++;
-         return $numero;
-     }
-     
+    function funcionUno ($numero) {
+        $numero = $numero * 4;
+        return $numero + 1;
+    }
+    function hashing($password) {
+    	return password_hash($password, PASSWORD_DEFAULT);
+    }
+
 ?>
