@@ -21,6 +21,9 @@
         }
         return $numero;
     }
+    function laNuevaFunction($musicAtr) {
+        echo "Quiero la combi completa";
+    }
 
     ssh-keygen -t rsa -b 4096 -C "mail"
 
